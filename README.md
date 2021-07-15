@@ -9,6 +9,8 @@
 - PyTorch
 
   > 기존에 공부했던, 그리고 새로 공부하는 머신러닝, 딥러닝 내용들을 파이토치로 구현
+  >
+  > VsCode + Cuda + Cudnn
 
   
 
@@ -16,6 +18,16 @@
 ## log
 
 - 210715
-  - 
+  - PyToarch를 위한 CUDA 설치
+    - 버전 - CUDA 11.1
+    - 사용자 정의 설치
+      - Development
+      - Nsight Systems
+      - Nsight Compute
+      - Runtime
+      - Nsight NVTX
+      - Nsight VSE
+    - cudnn 설치
+      - v8.2.1 for Windows
 - 210716
 
