@@ -12,7 +12,9 @@
   >
   > VsCode + Cuda + Cudnn
 
-  
+- algorithm
+
+  > 알고리즘 공부 및 풀이 코드 업로드
 
 
 ## log
@@ -42,5 +44,6 @@
         pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
         ```
 
-- 210716
+- 210722
 
+  - 알고리즘 폴더 생성 및 SWEA D2문제 풀이 업로드
