@@ -12,4 +12,3 @@ for i in range(T):
                 array[val] = sum(before_array[val - 1:val + 1])
         before_array = array
         print(str(array)[1:-1].replace(",", ""))
-

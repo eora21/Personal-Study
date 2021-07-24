@@ -8,7 +8,6 @@ for i in range(T):
 
     array = [[]]*N
     
-
     for row in range(N):
         array[row] = list(map(int, input().split(" ")))
 
@@ -19,7 +18,7 @@ for i in range(T):
             fly = 0
             for cnt in range(row, row + M):
                 fly += sum(array[cnt][col:col + M])
-            print(fly, row, col)
+            # print(fly, row, col)
             if Max_fly < fly:
                 Max_fly = fly
     
