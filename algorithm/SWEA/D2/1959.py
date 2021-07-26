@@ -1,14 +1,14 @@
 T = int(input())
 
-for i in range(T):
+for case in range(T):
     ABnum = input().split(" ")
 
     if int(ABnum[0]) >= int(ABnum[1]): #A가 무조건 작은 사이즈로 통일
-        B = input().split(" ")
-        A = input().split(" ")
+        B = list(map(int, input().split(" ")))
+        A = list(map(int, input().split(" ")))
     else:
-        A = input().split(" ")
-        B = input().split(" ")
+        A = list(map(int, input().split(" ")))
+        B = list(map(int, input().split(" ")))
 
     max_total = 0
 
@@ -20,4 +20,4 @@ for i in range(T):
             j += 1
         if max_total < total: max_total = total
     
-    print(f"#{i + 1} {max_total}")
+    print(f"#{case + 1} {max_total}")

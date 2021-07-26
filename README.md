@@ -2,56 +2,38 @@
 
 > 이것저것 자습
 
-
-
 ## 분류기준
 
-- PyTorch
+###  PyTorch
 
-  > 기존에 공부했던, 그리고 새로 공부하는 머신러닝, 딥러닝 내용들을 파이토치로 구현
-  >
-  > VsCode + Cuda + Cudnn
+> 기존에 공부했던, 그리고 새로 공부하는 머신러닝, 딥러닝 내용들을 파이토치로 구현
+>
+> VsCode + Cuda + Cudnn
 
-- algorithm
+#### 환경설정
 
-  > 알고리즘 공부 및 풀이 코드 업로드
+1. PyToarch를 위한 CUDA 설치
+   1. 버전 - CUDA 11.1
 
+   2. 사용자 정의 설치
 
-## log
+      1. Development
+      2. Nsight Systems
+      3. Nsight Compute
+      4. Runtime
+      5. Nsight NVTX
+      6. Nsight VSE
 
-- 210715
+   3. cudnn 설치
 
-  - PyToarch를 위한 CUDA 설치
+      1. v8.2.1 for Windows
 
-    - 버전 - CUDA 11.1
+   4. PyTorch 설치
 
-    - 사용자 정의 설치
+      ```
+      pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+      ```
 
-      - Development
-      - Nsight Systems
-      - Nsight Compute
-      - Runtime
-      - Nsight NVTX
-      - Nsight VSE
+### algorithm
 
-    - cudnn 설치
-
-      - v8.2.1 for Windows
-
-    - PyTorch 설치
-
-      - ```
-        pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-        ```
-
-- 210722
-
-  - 알고리즘 폴더 생성 및 SWEA D2문제 풀이 업로드
-  
-- 210723
-
-  - 문제 풀던 부분까지 업로드. 관통프로젝트가 은근 오래 걸려서..
-  
-- 210724
-
-  - 알고리즘 풀이
+> 알고리즘 공부 및 풀이 코드 업로드

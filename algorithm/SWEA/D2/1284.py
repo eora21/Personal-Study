@@ -14,4 +14,4 @@ for i in range(T):
     else:
         B = Q
 
-    print(f"#{i + 1} {A if A<=B else B}")
+    print(f"#{i + 1} {A if A <= B else B}")

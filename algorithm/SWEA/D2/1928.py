@@ -22,7 +22,7 @@ for i in range(T):
         for StoZ in range(5, -1, -1):
             li.append(ch // 2**StoZ)
             if ch // 2**StoZ:
-                ch %= 2**StoZ
+                ch -= 2**StoZ
 
     #8개씩
     ans =[]
