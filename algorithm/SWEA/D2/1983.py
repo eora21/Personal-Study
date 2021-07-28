@@ -31,8 +31,8 @@ for case in range(T):
         dic_sorted[i][1] = grade[int(i // (students / 10))]
     pick_grade = ""
     for j in range(students):
-        if dic_sorted[j][0] == pick:
-            pick_grade = dic_sorted[i][1]
+        if dic_sorted[j][0] == pick - 1:
+            pick_grade = dic_sorted[j][1]
             break
 
     print(f"#{case + 1} {pick_grade}")
