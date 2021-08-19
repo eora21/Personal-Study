@@ -12,4 +12,4 @@ for case in range(T):
         mode = not mode
     
     print(f"#{case + 1}")
-    print(" ".join(map(str, li)))
+    print(*li)
