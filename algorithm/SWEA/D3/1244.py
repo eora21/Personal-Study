@@ -16,10 +16,13 @@ for case in range(T):
     num = list(map(int, num))
     reverse_num = list(reversed(num))
 
-    print(num)
-    print(reverse_num)
+    max_li = []
+    change_li = []
+    for c in range(int(change)):
+        max_num = max(num)
+        max_index = len(num) - 1 - reverse_num.index(max_num)
 
-    # max_li = []
-    # for c in range(int(change)):
-    #     max_num = max(num)
-    #     max_li.append(max_num)
+        max_li.append(max_index)
+        for i in range(len(num)):
+            if max_num > i:
+                change_li

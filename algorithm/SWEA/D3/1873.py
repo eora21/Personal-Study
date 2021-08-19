@@ -69,20 +69,20 @@ class Game:
             Y = self.Y
             mode[act[i]]()
 
-            print(act[i])
-            for li_row in self.li:
-                print(*li_row)
-            try:
-                print(act[i+1])
-            except:
-                print("None")
-            print()
+            # print(act[i])
+            # for li_row in self.li:
+            #     print(*li_row)
+            # try:
+            #     print(act[i+1])
+            # except:
+            #     print("None")
+            # print()
 
-        # print(f"#{t + 1} ",end="")
-        # for r in range(H):
-        #     for c in range(W):
-        #         print(game.li[r][c], end="")
-        #     print()
+        print(f"#{t + 1} ",end="")
+        for r in range(H):
+            for c in range(W):
+                print(game.li[r][c], end="")
+            print()
     
     
 
