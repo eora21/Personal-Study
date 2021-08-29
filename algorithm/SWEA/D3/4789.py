@@ -7,7 +7,7 @@ for case in range(int(input())):
     for i in range(len(people)):
         if people[i] and now < i:
             hire += i - now
-            now += hire
+            now += i - now
         now += people[i]
     
     print("#{} {}".format(case + 1, hire))
